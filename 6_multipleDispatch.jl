@@ -1,6 +1,5 @@
 #Demonstracao de despacho multiplo
 
-
 function soma(a,b) #funcao utilizaca para parametros gerais
     print("Soma Geral: ")
 	println(a+b)

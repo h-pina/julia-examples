@@ -24,7 +24,6 @@ end
 isEven(2)
 isEven(3)
 
-
 #Expressoes ternarias
 k = a == b ? 10 : 20
 println(k)
