@@ -1,3 +1,5 @@
+#Propriedades de funcoes em Julia
+
 #Multiplas formas de construir uma funcao
 function somaUm(a,b)
     return a+b
@@ -11,7 +13,7 @@ g = somaUm
 
 println("$(somaUm(2,3)) | $(somaDois(1,1)) | $(somaTres(5,6)) | $(g(4,2)) ")
 
-#Funcoes podem retornar varios argumentos
+#Funcoes podem retornar varios valores
 function makeAllCalcs(a,b)
     return a+b,a*b,a-b,a/b,a^b
 end

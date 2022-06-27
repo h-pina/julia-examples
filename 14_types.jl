@@ -1,3 +1,5 @@
+#Propriedades interessantes de tipos em Julia
+
 #variaveis com tipos estaticamente definidos
 function foo(var) 
     y::Float32 = var
@@ -16,8 +18,8 @@ x = 30.0
 a = foo(x)
 println("$(a) | Tipo: $(typeof(a))")
 
-#strucs
-#a palavra-chave permite criar parametros que podem ser futuramente alterados
+#structs
+#a palavra-chave mutable permite criar parametros que podem ser futuramente alterados
 #{T<:Any} indica que T pode ser de qualquer tipo
 mutable struct Cachorro{T<:Any}
     Peso::T

@@ -1,3 +1,5 @@
+#Propriedades e funcoes interessantes de Strings
+
 greetingOne = "\nHi everyone.\n" #String
 
 #Barras invertidas podem ser utilizadas para separar um texto de linha unica em varias linhas no corpo do codigo
@@ -15,6 +17,9 @@ hi = "Hello "
 guys = "guys. "
 hru = "How are you?"
 greetingTwo = hi*guys*hru*"\n" #Uma forma de concaternar strings
+
+#Occursin: verifica a existencia de substrings dentro de uma string
+occursin("Linguagens", "Disciplina de Linguagens de Programacao")
 
 println(alphabet[3] , alphabet[begin] , alphabet[end], alphabet[begin+5]) #concatenando strings na funcao printf 
 println("$(hi) $(guys) $(hru) $(alphabet)") #

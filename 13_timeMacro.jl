@@ -1,6 +1,6 @@
 #Medindo a performance de funcoes usando a macro @time
 
-function sum_global()
+function sum_global() #Funcao de testes
     s = 0.0
     for i in rand(1000)
         s += i
@@ -8,7 +8,7 @@ function sum_global()
     return s
 end
 
-function getTime()
+function getTime() 
     @time sum_global()
 end
 

@@ -1,3 +1,5 @@
+#Algumas tecnicas e propriedades interessantes de fluxo de controle presentes em Julia
+
 #Expressoes compostas
 a = begin
     x=3
@@ -8,7 +10,7 @@ end
 println(a)
 
 # Outra forma de escrever expressoes compostas
-b = (x=3;y=2;y=y^2;y*x+y)
+b = (x=3;y=2;y=y^2;y*x+y) #"One-Liner"
 println(b)
 
 #Expressoes Conficionais if else
@@ -22,8 +24,6 @@ end
 isEven(2)
 isEven(3)
 
-#Occursin
-occursin("Linguagens", "Disciplina de Linguagens de Programacao")
 
 #Expressoes ternarias
 k = a == b ? 10 : 20

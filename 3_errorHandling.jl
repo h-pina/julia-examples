@@ -1,4 +1,5 @@
-# try, catch can be used to deal with errors as with many other languages
+#Funcionamento de tratamento de excecoes
+
 try
     push(a,1) #tentativa de inserir numero em array nao existente
 catch err

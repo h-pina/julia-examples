@@ -1,3 +1,5 @@
+#Algumas propriedades interessantes de nomes de variaveis e funcoes em Julia
+
 
 a = 10.0 #Variavel com letras minusculas
 __Var2 = 20 #Underscore + letras maiusculas + letras minusculas
